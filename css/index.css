@@ -1,0 +1,88 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+html body{
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/* Navigation Bar */
+.nav_right{
+   justify-content: right;
+}
+
+.navbar{
+    padding: 5% 15%;
+    text-align: center;
+    background: #C6969E;
+    line-height: 75px;
+}
+
+.navbar-brand a{
+    font-size: 2rem;
+}
+
+.nav_right ul {
+    margin-left: 15px;
+    font-size: 1.25rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #F2F2F2;
+}
+.navbar a:hover{
+    color: #434343;
+}
+
+/* Desktop First Styling */
+
+.intro_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 75vh;
+    background: #f1ced4;
+    overflow: hidden;
+}
+
+.intro_text{
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+.intro_img{
+    align-content: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.intro_header{
+    margin-bottom: 5%;
+    text-align: left;
+}
+.intro_content{
+    padding-right: 5%;
+    text-align: left;
+}
+
+.page_containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 25vh;
+    background: #e2c3bd;
+}
