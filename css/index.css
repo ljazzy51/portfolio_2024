@@ -44,14 +44,15 @@ img{
 
 /* Desktop First Styling */
 
+
 .page_container{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    background: #f1ced4;
     padding: 5%;
+    background: linear-gradient(to bottom, rgba(198,150,158,1) 1%,rgba(226,195,189,1) 33%,rgba(226,195,189,1) 33%,rgba(238,214,209,1) 100%);
 }
 
 .page_container img{
@@ -88,13 +89,34 @@ img{
     padding-bottom: 3%;
 }
 
-.page_containers{
+.portfolio_grid{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
     flex-wrap: wrap;
     text-align: center;
-    height: 25vh;
-    background: #e2c3bd;
+    padding: 2% 5%;
+    background: linear-gradient(to bottom, rgba(238,214,209,1) 0%,rgba(226,195,189,1) 67%,rgba(226,195,189,1) 67%,rgba(198,150,158,1) 99%); 
+}
+
+.card{
+    font-family: 'Quicksand', 'Helvetica', sans-serif;
+}
+
+.card-title{
+    font-weight: bolder;
+}
+.card-body .btn{
+    background-color: #276C4C;
+    outline: none;
+}
+
+.card-body .btn:hover {
+    background-color: #538e73;
+    outline: none;
+}
+
+.portfolio_grid .card{
+    background-color: #F2F2F2;
 }
