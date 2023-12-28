@@ -102,6 +102,7 @@ img{
 
 .card{
     font-family: 'Quicksand', 'Helvetica', sans-serif;
+    margin-bottom: 5%;
 }
 
 .card-title{
@@ -119,4 +120,8 @@ img{
 
 .portfolio_grid .card{
     background-color: #F2F2F2;
+}
+
+.socials{
+    padding: 2%;
 }
