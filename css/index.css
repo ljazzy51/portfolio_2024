@@ -20,7 +20,7 @@ img{
 .navbar{
     padding: 5% 15%;
     text-align: center;
-    background: #C6969E;
+    background: #DE775F;
     line-height: 75px;
     font-family: 'Quicksand', 'Helvetica', sans-serif;
 }
@@ -36,10 +36,10 @@ img{
 
 .navbar a {
     text-decoration: none;
-    color: #F2F2F2;
+    color: #f8f9fa;
 }
 .navbar a:hover{
-    color: #434343;
+    color: #7D3418;
 }
 
 /* Desktop First Styling */
@@ -52,7 +52,7 @@ img{
     align-content: center;
     flex-wrap: wrap;
     padding: 5%;
-    background: linear-gradient(to bottom, rgba(198,150,158,1) 1%,rgba(226,195,189,1) 33%,rgba(226,195,189,1) 33%,rgba(238,214,209,1) 100%);
+    background: #FCF8E8;
 }
 
 .page_container img{
@@ -65,6 +65,7 @@ img{
     justify-content: center;
     flex-direction: column;
     font-family: 'Quicksand', 'Helvetica', sans-serif;
+    background-color: #D6E4D6;
 }
 .intro_img{
     align-content: center;
@@ -73,7 +74,7 @@ img{
 }
 
 .intro_header{
-    color: #276C4C;
+    color: #7D3418;
     padding-top: 5%;
     padding-bottom: 3%;
 }
@@ -97,7 +98,7 @@ img{
     flex-wrap: wrap;
     text-align: center;
     padding: 2% 5%;
-    background: linear-gradient(to bottom, rgba(238,214,209,1) 0%,rgba(226,195,189,1) 67%,rgba(226,195,189,1) 67%,rgba(198,150,158,1) 99%); 
+    background: #FCF8E8; 
 }
 
 .card{
@@ -105,23 +106,61 @@ img{
     margin-bottom: 5%;
 }
 
+.card .btn{
+    color: #f8f9fa;
+}
+
 .card-title{
     font-weight: bolder;
 }
 .card-body .btn{
-    background-color: #276C4C;
+    background-color: #7D3418;
     outline: none;
 }
 
 .card-body .btn:hover {
-    background-color: #538e73;
+    background-color: #cd8271;
     outline: none;
 }
 
 .portfolio_grid .card{
-    background-color: #F2F2F2;
+    background-color: #D6E4D6;
 }
 
 .socials{
     padding: 2%;
+}
+
+/* Footer Styles */
+.footer_flex {
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    text-align: center;
+    color: #7D3418;
+    font-size: 1.25rem;
+    font-family: 'Quicksand', 'Helvetica', sans-serif;
+    list-style-type: none;
+
+}
+.footer_flex a {
+    text-decoration: none;
+    color: #7D3418;
+    font-family: 'Quicksand','Open Sans', sans-serif;
+}
+
+.footer_flex a:hover {
+    text-decoration: none;
+    color: #434343;
+    font-family: 'Quicksand','Open Sans', sans-serif;
+}
+
+.footer_right{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 50%;
+}
+ 
+.footer_right a {
+    margin-left: 25px;
 }

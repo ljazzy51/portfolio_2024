@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Digital Design</title>
+        <title>Digital Designs</title>
         <link rel="stylesheet" href="../css/digital_design.css">
 
         <!-- link to bootstrap components -->
@@ -13,20 +13,55 @@
             integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
             crossorigin="anonymous" 
         />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- link to google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <!-- Logo nav item separated for responsive sizing -->
-            <h1 class="logo"><a href="../html/index.html">Lilyanne Jaczko</a></h1>
-            <nav class="menu" id="menu">
-                <ul></ul>
+            <nav class="navbar navbar-expand-lg" id="menu">
+                <div class="container">
+                    <!-- logo -->
+                    <h1 class="navbar-brand"><a href="../html/index.html">Lilyanne Jaczko</a></h1>
+                    <!-- dropdown button for mobile -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- nav items -->
+                    <div class="collapse navbar-collapse nav_right" id="collapsibleNavbar" >
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="../html/digital_design.html" >Digital Designs</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../html/web_design.html">Website Designs</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../html/contact.html">Contact</a></li>
+                        </ul>
+                    </div>    
+                </div>
             </nav>
         </header>
-        <main>
-            <h2>Hello! My name is Lilyanne Jaczko</h1>
+
+        <main class="jumbotron page_container">
+            
         </main>
-
-
+        <div class="portfolio_grid">
+           
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_flex">
+                    <p>Website by Lilyanne Jaczko</p>
+                    <div class="footer_right">
+                        <p><a class="footer-link" href="#">Instagram</a></p>
+                        <p><a class="footer-link" href="https://github.com/ljazzy51" target="_blank">GitHub</a></p>
+                        <p><a class="footer-link" href="https://dot.cards/lilyanne_jaczko" target="_blank">Dot Profile</a></p>  
+                    </div> 
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
