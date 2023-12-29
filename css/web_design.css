@@ -92,44 +92,15 @@ img{
 
 .portfolio_grid{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     align-content: center;
     flex-wrap: wrap;
     text-align: center;
-    padding: 2% 5%;
+    padding: 2% 2%;
     background: #FCF8E8; 
 }
 
-.card{
-    font-family: 'Quicksand', 'Helvetica', sans-serif;
-    margin-bottom: 5%;
-}
-
-.card .btn{
-    color: #f8f9fa;
-}
-
-.card-title{
-    font-weight: bolder;
-}
-.card-body .btn{
-    background-color: #7D3418;
-    outline: none;
-}
-
-.card-body .btn:hover {
-    background-color: #cd8271;
-    outline: none;
-}
-
-.portfolio_grid .card{
-    background-color: #D6E4D6;
-}
-
-.socials{
-    padding: 2%;
-}
 
 /* Footer Styles */
 .footer_flex {
