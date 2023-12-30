@@ -53,52 +53,50 @@ img{
     flex-wrap: wrap;
     padding: 5%;
     background: #FCF8E8;
+    font-family: 'Quicksand', 'Helvetica', sans-serif;
+}
+
+.page_container h3{
+    color: #7D3418;
 }
 
 .page_container img{
     overflow: auto;
 }
 
-.intro_text{
-    display: flex;
-    align-content: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    font-family: 'Quicksand', 'Helvetica', sans-serif;
-    background-color: #D6E4D6;
-}
-.intro_img{
-    align-content: center;
-    display: flex;
-    overflow: hidden;
-}
-
-.intro_header{
-    color: #7D3418;
-    padding-top: 5%;
-    padding-bottom: 3%;
-}
-
-.intro_header h2{
-    font-size: 2.2rem;
-}
-.intro_content p{
-    font-size: 1.1rem;
-}
-.intro_content{
-    color: #434343;
-    padding-bottom: 3%;
-}
-
 .portfolio_grid{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
     align-content: center;
     flex-wrap: wrap;
-    text-align: center;
-    padding: 2% 2%;
-    background: #FCF8E8; 
+    text-align: left;
+    padding: 5% 2%;
+    background: #D6E4D6; 
+    margin-bottom: 2%;
+    font-family: 'Quicksand', 'Helvetica', sans-serif;
+}
+
+.carousel-item .d-block{
+    overflow: visible;
+}
+
+.AVAbrew{
+    margin: 2% 0;
+}
+
+.personal_projects{
+    margin: 2% 0;
+    padding-top: 2%;
+}
+
+.flowers{
+    margin: 2% 0;
+    padding-top: 2%;
+}
+
+.portfolio_grid h3 {
+    color: #7D3418;
 }
 
 
