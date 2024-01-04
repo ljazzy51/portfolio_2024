@@ -61,10 +61,26 @@ img{
     overflow: auto;
 }
 
+.page_container h2{
+    margin-top: 5%;
+    color: #434343;
+}
+
 .socials_icons {
     padding: 5% 2% 2% 5%;
 }
 
+.socials_caption{
+    margin-top: 15px;
+    color: #434343;
+}
+
+.contact_message{
+    padding: 5%;
+    text-align: justify;
+    background-color: #D6E4D6;
+    font-size: 1.15rem;
+}
 
 /* Footer Styles */
 .footer_flex {
