@@ -28,7 +28,8 @@
         <!-- Link to FontAwesome -->
         <script src="https://kit.fontawesome.com/7200b00e05.js" crossorigin="anonymous"></script>
 
-        <!-- <link rel="stylesheet" href="../server.js"> -->
+        <link rel="php" href="../mail_test.js">
+
     </head>
 
     <body>
@@ -147,5 +148,15 @@
             </div>
         </footer>
     </body>
+
+    <script>
+        document.getElementById("contact_form").addEventListener("submit", (event) => {
+            const contactForm = event.target
+            if (!validateContactForm(contactForm)) {
+                event.preventDefault();
+                displayError(contactForm, 'Invalid input')
+            }
+        });
+    </script>
 
 </html>
